@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wordXpuzzle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="wordxicon.png">
+</head>
+<body>
+    <div class="container">
+        <div class="name">
+            <span id="score">Score: <b id="score-color">0</b></span>
+            <span id="h2"><b>word</b>X<b>puzzle.</b></span>
+        </div>
+        <div class="content">
+            <div class="word"></div>
+            <div class="details">
+                <p class="hint"><b>Hint :</b> <span id="hint"></span>.</p>
+                <p class="time"><b>Time Left : </b><span id="color-time"></span>s</p>
+            </div>
+            <input type="text" placeholder="Enter the valid word">
+            <div class="buttons">
+                <button class="skip">Skip</button>
+                <button class="check">Check</button>
+            </div>
+        </div>
+    </div>
+    <div class="dev">Developed & maintains by <a href="https://www.instagram.com/viv.ek.7/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a></div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
